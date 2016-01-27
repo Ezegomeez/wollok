@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: hyde
 ---
 
 # 1. Introducción a la programación orientada a objetos con Wollok

@@ -6,12 +6,12 @@ layout: hyde
 
 <br/>
 
-### [Módulo 1: Explorando Wollok, objetos y mensajes](aprendiendo-modulo1)
+### [Módulo 1: Explorando Wollok, objetos y mensajes]({{site.baseurl}}/aprendiendo-modulo1/index.html)
 
 Qué es un programa. Objeto-mensaje, método, parámetro, tipo como grupo de mensajes.
 Introducción a Wollok
 
-### [Módulo 2: Definir nuestros propios objetos](aprendiendo-modulo2)
+### [Módulo 2: Definir nuestros propios objetos]({{site.baseurl}}/aprendiendo-modulo2/index.html)
 
 Se implementa Pepita Glotona con todas las comidas. Comenzamos a implementar nuestros objetos.
 

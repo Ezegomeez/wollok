@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: hyde
 ---
 
 # 2. Definir Objetos en Wollok

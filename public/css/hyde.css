@@ -79,7 +79,13 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
+/*  font-family: "Abril Fatface", serif;*/
+/* wollok change */
+  font-family: ykxr-n4,sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+/* /wollok change */
   font-size: 3.25rem;
 }
 
