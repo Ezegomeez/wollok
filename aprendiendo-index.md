@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: hyde
 ---
 
 # Aprendiendo a Programar con Objetos Usando Wollok

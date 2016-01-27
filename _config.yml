@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+#highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Wollok
+tagline:          'Programming Language'
+description:      'A programming language and environment for learning Object-Oriented Programming.'
+url:              http://github.org/uqbar-project/wollok
+
+author:
+  name:           'Javier Fernandes'
+  url:            https://ar.linkedin.com/in/javier-fernandes-0144414
+
+#paginate:         5
+
+# Custom vars
+version:          2.0.0
+
+github:
+  repo:           http://github.org/uqbar-project/wollok
