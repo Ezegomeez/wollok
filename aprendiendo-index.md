@@ -4,6 +4,8 @@ layout: default
 
 # Aprendiendo a Programar con Objetos Usando Wollok
 
+<br/>
+
 ### [Módulo 1: Explorando Wollok, objetos y mensajes](aprendiendo-modulo1)
 
 Qué es un programa. Objeto-mensaje, método, parámetro, tipo como grupo de mensajes.

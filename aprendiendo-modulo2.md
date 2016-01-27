@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# 2 - Definir Objetos en Wollok
+# 2. Definir Objetos en Wollok
 
 En el primer módulo aprendimos sobre objetos y mensajes, y algunos conceptos básicos sobre la sintaxis de Wollok. También pudimos jugar, desde el REPL, con objetos que ya estaban definidos. El siguiente paso es aprender a definir nuestros propios objetos, para ello continuamos jugando con nuestra golondrina amiga: Pepita.
 
