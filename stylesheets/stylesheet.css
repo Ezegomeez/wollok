@@ -371,3 +371,47 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { }
+
+/* #WOLLOK CUSTOMS
+================================================== */
+
+/* navar */
+.main-nav li {
+  display: inline;
+}
+
+.main-nav li a {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 14px;
+    padding: 0.5em 1em;
+    text-shadow: none;
+    text-transform: uppercase;
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+.grid .unit:last-child {
+    padding-right: 20px;
+}
+.grid .two-thirds, .grid .w-2-3 {
+    width: 66.6665%;
+}
+.grid .unit {
+    float: left;
+    width: 100%;
+    padding: 10px;
+}
+
+.grid, .unit {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header h1, header nav {
+    display: inline-block;
+}
