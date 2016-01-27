@@ -4,12 +4,12 @@ layout: default
 
 # Aprendiendo a Programar con Objetos Usando Wollok
 
-### [Módulo 1: Explorando Wollok, objetos y mensajes](/aprendiendo-modulo1)
+### [Módulo 1: Explorando Wollok, objetos y mensajes](aprendiendo-modulo1)
 
 Qué es un programa. Objeto-mensaje, método, parámetro, tipo como grupo de mensajes.
 Introducción a Wollok
 
-### [Módulo 2: Definir nuestros propios objetos](/aprendiendo-modulo2)
+### [Módulo 2: Definir nuestros propios objetos](aprendiendo-modulo2)
 
 Se implementa Pepita Glotona con todas las comidas. Comenzamos a implementar nuestros objetos.
 
