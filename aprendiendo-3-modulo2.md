@@ -33,12 +33,17 @@ pepita{}
 
 Por supuesto nos gustaría poder mandarle un mensaje a pepita. Para que pepita entienda algún mensaje, tenemos que agregarle un método con el mismo nombre que el mensaje, vamos a comenzar por crear el método energia.
 
-Métodos y mensajes
+<div class="sidenote">
+<h3>Métodos y mensajes</h3>
+<p>
 Seguramente, en este momento, todavía no se entienda el por qué de esta diferenciación entre método y mensaje. 
 
 Sin embargo, es importante entender el rol de cada uno desde ahora, porque la diferencia entre mensaje y método es una de las características más importantes de la programación orientada a objetos. 
 
 A lo largo del curso vamos a volver varias veces sobre este punto.
+</p>
+</div>
+
 Para poder definir un método debemos escribir:
 La palabra method
 El nombre del método, en este caso "energia"
@@ -75,14 +80,24 @@ La palabra var (para una referencia variable) o val (para una referencia constan
 Un nombre, para nosotros "energia"
 Opcionalmente se puede poner un igual "=" y una expresión que determina el valor inicial de la referencia (en el caso de las constantes es obligatorio tener un valor inicial).
 
-### Expresiones
-Una expresión es cualquier porción de código que al evaluarla da como resultado un objeto. 
+<div class="sidenote">
+<h3>Expresiones</h3>
+<p>
+Una expresión es cualquier porción de código que al evaluarla da como resultado un objeto.
+</p>
 
+<p>
 Hasta acá conocemos 4 tipos de expresiones:
-Los nombres de los objetos definidos, por ejemplo "pepita" es una expresión que permite referenciar al obj de pepitaeto definido mediante object pepita { ... }
-Los literales de números, por ejemplo: 1, 2, 100 (también hay más variantes de literales).
-Los envíos de mensajes (a mensajes que devuelvan un objeto), por ejemplo: pepita.energia() o 1+2
-Las variables y constantes contenidas en el estado interno de los objetos.
+
+<ul>
+<li>Los nombres de los objetos definidos, por ejemplo "pepita" es una expresión que permite referenciar al obj de pepitaeto definido mediante object pepita { ... }</li>
+<li>Los literales de números, por ejemplo: 1, 2, 100 (también hay más variantes de literales).</li>
+<li>Los envíos de mensajes (a mensajes que devuelvan un objeto), por ejemplo: pepita.energia() o 1+2</li>
+<li>Las variables y constantes contenidas en el estado interno de los objetos.</li>
+</ul>
+</p>
+</div>
+
 Entonces agregamos la variable pepita a la definición. También aprovechamos para modificar el método energía, de forma que ya no devuelva siempre 100 fijo, sino devuelva la energía almacenada en el estado interno:
 
 {% highlight scala %}

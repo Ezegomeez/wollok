@@ -1,0 +1,39 @@
+
+.copyright {
+	font-size: 0.5rem;
+}
+
+/* 
+ * SIDENOTES
+ */
+
+.sidenote {
+  text-align: center;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  color: rgba(232,232,232,.5);
+  background-color: #707070;
+  font-size: 0.75rem;
+}
+
+@media (min-width: 48rem) {
+  .sidenote {
+	position: absolute;
+    right: 0;
+    width: 12rem;
+    text-align: left;
+  }
+}
+
+.sidenote h3 {
+	margin-top: 0.2rem;
+	color: rgba(255,255,255,.5);
+	padding-left: 28px;
+	font-size: 1rem;
+	background: url("../images/icon-white-info.png");
+  	background-repeat: no-repeat;
+}
+
+.sidenote p {
+	padding-left: 0.7rem;
+	padding-right: 0.7rem;
+}

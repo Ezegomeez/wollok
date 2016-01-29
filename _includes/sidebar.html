@@ -26,13 +26,17 @@
         {% endif %}
       {% endfor %}
 
-      <li class="sidebar-nav-item"><a href="{{site.baseurl}}/aprendiendo-index/index.html">Documentaci&oacute;n</a></li>
+      <li class="sidebar-nav-item"><a href="#">Gu&iacute;a del Lenguaje</a></li>
 
-      <li class="sidebar-nav-item"><a href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a></li>
-      <li class="sidebar-nav-item"><a href="{{ site.github.repo }}">GitHub project</a></li>
-      <li class="sidebar-nav-item">Currently v{{ site.version }}</li>
+      <li class="sidebar-nav-item"><a href="{{site.baseurl}}/aprendiendo-index/index.html">Documentaci&oacute;n</a></li>
+      
+      <li class="sidebar-nav-item"><a href="{{site.baseurl}}/ejercicios-index/index.html">Ejercicios</a></li>
+
+      <li class="sidebar-nav-item"><a href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Descargas</a></li>
     </ul>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <div class="sidebar-nav-item"><a href="{{ site.github.repo }}">GitHub project</a></div>
+
+    <div class="copyright">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</div>
   </div>
 </div>

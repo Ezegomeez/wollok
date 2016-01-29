@@ -10,7 +10,8 @@ El objetivo de estas páginas es proveer una guía para aprender programación o
 Wollok es un lenguaje de programación orientado a objetos pensado para estudiantes iniciales de programación. Y también es un conjunto de herramientas de desarrollo, adaptadas a las necesidades de quienes están dando sus primeros pasos en programación.
 
 ¿Qué quiere decir eso de "programación orientada a objetos"? 
-Los siguientes apartados intentarán responder detalladamente a esa pregunta, pero previamente conviene aclarar que es una entre tantas formas de programar. 
+
+Los siguientes apartados intentarán responder detalladamente a esa pregunta, pero previamente conviene aclarar que es una de entre tantas formas de programar. 
 
 Todas esas formas de programar (a las que llamamos paradigmas de programación) tienen en el fondo el mismo objetivo que es controlar lo que hace una computadora. Sin embargo, cada paradigma logra ese objetivo de formas muy distintas, usando distintas herramientas, distintos conceptos.
 
