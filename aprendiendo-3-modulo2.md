@@ -218,3 +218,5 @@ object alpiste {
 
 El siguiente paso es agregar a pepita un método que pueda recibir el alpiste
 
+{% include aprendiendo-footer.html %}
+

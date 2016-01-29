@@ -136,3 +136,24 @@ También podemos hacer que coma un poco de alpiste, y volvemos a ver cómo varí
 * Un mensaje tiene un nombre, puede tener uno o más parámetros y puede tener un valor de retorno.
 * Tanto los parámetros como el valor de retorno son objetos.
 (Casi) siempre, la sintaxis en objetos es objeto-mensaje-parámetros.
+
+
+{% assign url_parts = page.url | split: '/' %}
+{% assign url_parts_size = url_parts | size %}
+{% assign rm = url_parts | last %}
+{% assign base_url = page.url | replace: rm %}
+
+<ul>
+{% for node in site.pages %}
+  {% if node.url contains base_url %}
+    {% assign node_url_parts = node.url | split: '/' %}
+    {% assign node_url_parts_size = node_url_parts | size %}
+    {% assign filename = node_url_parts | last %}
+    {% if url_parts_size == node_url_parts_size and filename != 'index.html' %}
+      <li><a href='{{node.url}}'>{{node.title}}</a></li>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+</ul>
+
+{% include aprendiendo-footer.html %}
