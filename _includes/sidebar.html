@@ -1,5 +1,15 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
+
+  <!-- social networks -->
+  <ul class="soc">
+      <li><a class="soc-twitter" href="https://twitter.com/@WollokLang"></a></li>
+      <li><a class="soc-google" href="https://groups.google.com/d/forum/wollok "></a></li>
+      <li><a class="soc-email2" href="mailto:wollok@uqbar.org "></a></li>
+      <li><a class="soc-github soc-icon-last" href="http://github.com/uqbar-project/wollok"></a></li>
+  </ul>
+  <!-- social networks -->
+
     <div class="sidebar-about">
       <h1>{{ site.title }}</h1>
       <p class="lead">{{ site.description }}</p>
@@ -26,7 +36,7 @@
         {% endif %}
       {% endfor %}
 
-      <li class="sidebar-nav-item"><a href="#">Gu&iacute;a del Lenguaje</a></li>
+      <li class="sidebar-nav-item"><a href="{{site.baseurl}}/lang-ref/index.html">Gu&iacute;a del Lenguaje</a></li>
 
       <li class="sidebar-nav-item"><a href="{{site.baseurl}}/aprendiendo-index/index.html">Documentaci&oacute;n</a></li>
       
@@ -34,8 +44,6 @@
 
       <li class="sidebar-nav-item"><a href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Descargas</a></li>
     </ul>
-
-    <div class="sidebar-nav-item"><a href="{{ site.github.repo }}">GitHub project</a></div>
 
     <div class="copyright">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</div>
   </div>

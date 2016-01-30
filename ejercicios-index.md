@@ -6,8 +6,10 @@ layout: hyde
 
 <br/>
 
-### [Guía 1: objetos]({{site.baseurl}}/ejercicios-1-objetos/index.html)
+### [Guía 1: Objetos]({{site.baseurl}}/ejercicios-1-objetos/index.html)
 
-### [Guía 2: colecciones]({{site.baseurl}}/ejercicios-2-colecciones/index.html)
+### [Guía 2: Colecciones]({{site.baseurl}}/ejercicios-2-colecciones/index.html)
 
-### [Guía 3: clases]({{site.baseurl}}/ejercicios-3-clases/index.html)
+### [Guía 3: Clases]({{site.baseurl}}/ejercicios-3-clases/index.html)
+
+### Guía 4: Mixins
