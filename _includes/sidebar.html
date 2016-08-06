@@ -11,13 +11,13 @@
   <!-- social networks -->
 
     <div class="sidebar-about">
-      <img src="/images/WollokLogo.png" height="80%" width="80%"/>
+      <img src="{{ site.logo }}" height="80%" width="80%"/>
       <p class="lead">{{ site.description }}</p>
     </div>
 
     <ul class="sidebar-nav">
       <li class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}">
-        <a href="/">Home</a>
+        <a href="/">Inicio</a>
       </li>
 
       {% comment %}
@@ -36,13 +36,16 @@
         {% endif %}
       {% endfor %}
 
-      <li class="sidebar-nav-item"><a href="{{site.baseurl}}/lang-ref/index.html">Gu&iacute;a del Lenguaje</a></li>
-
-      <li class="sidebar-nav-item"><a href="{{site.baseurl}}/aprendiendo-index/index.html">Documentaci&oacute;n</a></li>
-      
-      <li class="sidebar-nav-item"><a href="{{site.baseurl}}/ejercicios-index/index.html">Ejercicios</a></li>
+      <li class="sidebar-nav-item"><a href="{{site.baseurl}}/lang-ref/index.html">Novedades</a></li>
 
       <li class="sidebar-nav-item"><a href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Descargas</a></li>
+
+      <li class="sidebar-nav-item"><a href="{{site.baseurl}}/documentacion-index/index.html">Documentaci&oacute;n</a></li>
+      
+      <li class="sidebar-nav-item"><a href="{{site.baseurl}}/ejemplos-index/index.html">Ejemplos</a></li>
+
+      <li class="sidebar-nav-item"><a href="{{site.baseurl}}/comunidad-index/index.html">Contacto</a></li>
+
     </ul>
 
     <div class="copyright">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</div>
