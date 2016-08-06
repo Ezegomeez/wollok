@@ -1,5 +1,5 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 #highlighter:      pygments
 
 # Permalinks
@@ -10,6 +10,7 @@ title:            Wollok
 tagline:          'Objetos de este siglo'
 description:      'Un lenguaje y entorno de aprendizaje de Programación Orientada a Objetos.'
 url:              http://github.org/uqbar-project/wollok
+image:            images/WollokLogo.png
 
 author:
   name:           'Javier Fernandes'
@@ -18,9 +19,11 @@ author:
 #paginate:         5
 
 # Custom vars
-version:          1.3.0
+version:          3.1.0
 
 github:
   repo:           http://github.org/uqbar-project/wollok
 
-gems: [ 'jekyll-watch' ]
+gems: 
+  - jekyll-paginate
+  - jekyll-watch

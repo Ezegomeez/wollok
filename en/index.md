@@ -1,7 +1,6 @@
 ---
 layout: hyde
 ---
-
         <section id="downloads" class="clearfix">
           <a href="https://github.com/uqbar-project/wollok/zipball/master" id="download-zip" class="button"><span>Descargar .zip</span></a>
           <a href="https://github.com/uqbar-project/wollok/tarball/master" id="download-tar-gz" class="button"><span>Descargar .tar.gz</span></a>
@@ -12,17 +11,17 @@ layout: hyde
 
         <section id="main_content">
           <h3>
-<a id="qué-es-wollok" class="anchor" href="#qu%C3%A9-es-wollok" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>¿Qué es Wollok?</h3>
+<a id="qué-es-wollok" class="anchor" href="#qu%C3%A9-es-wollok" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Qué es Wollok?</h3>
 
 <p>Wollok es un lenguaje de programación y entorno de desarrollo integrado (IDE) para ser utilizado en el dictado de materias iniciales de programación a objetos. 
 Es ideal ya que permite ir agregando los detalles y conceptos de forma incremental y programando desde el primer día. </p>
 
 <h3>
-<a id="cómo-es-el-lenguaje" class="anchor" href="#c%C3%B3mo-es-el-lenguaje" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>¿Cómo es el Lenguaje?</h3>
+<a id="cómo-es-el-lenguaje" class="anchor" href="#c%C3%B3mo-es-el-lenguaje" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Cómo es el Lenguaje?</h3>
 
 <ul>
 <li>Orientado a Objetos</li>
-<li>No está centrado en clases, lo que permite crear objetos como </i>first-class</i> citizens sin la necesidad de clases. Esto permite comenzar a programar en objetos sin tener que introducir conceptos más complejos como son Packages, Herencia, Sobrecarga, etc.</li>
+<li>No esta centrado en clases, lo que permite crear objetos como first-class citizens sin la necesidad de clases. Esto permite comenzar a programar en objetos sin tener que introducir conceptos más complejos como son Packages, Herencia, Sobrecarga, etc.</li>
 <li>Es un lenguaje dinámico, no hay necesidad de ningún tipo de anotaciones de tipos. </li>
 <li>Busca maximizar los chequeos en tiempo de compilación sin perder el poder de un lenguaje dinámico.</li>
 <li>Posee un sistema de tipos implicito, al utilizar inferencia de tipos permite obtener muchos de los beneficios de los lenguajes estáticamente tipados con la simpleza de los lenguajes dinámicos.</li>
