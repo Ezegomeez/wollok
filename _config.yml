@@ -10,7 +10,7 @@ title:            Wollok
 tagline:          'Objetos de este siglo'
 description:      'Un lenguaje y entorno de aprendizaje de Programación Orientada a Objetos.'
 url:              http://github.org/uqbar-project/wollok
-logo:             images/WollokLogo.png
+logo:             /images/WollokLogo.png
 
 author:
   name:           'Javier Fernandes'
