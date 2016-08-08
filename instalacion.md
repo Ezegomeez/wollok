@@ -2,7 +2,7 @@
 layout: hyde
 ---
 
-<img src="/images/installation.jpg" width="100%"/>
+<img src="/images/Wollok_Installation_Sized.jpg" width="100%"/>
 
 # Entorno de Programación
 
