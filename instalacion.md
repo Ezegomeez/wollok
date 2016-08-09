@@ -6,25 +6,33 @@ layout: hyde
 
 # Entorno de Programación
 
-Wollok está implementado dentro de la plataforma Eclipse y necesita instalar una Máquina Virtual de Java 1.8. La misma se puede descargar [aquí](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+Wollok está implementado dentro de la plataforma Eclipse y necesita instalar una Máquina Virtual de Java 1.8. La misma se puede descargar [aquí](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 
 Una vez que tengamos la VM de Java, se puede instalar Wollok descomprimiendo el contenido del archivo Zip o Tar.Gz (depende de la plataforma), en cualquier directorio. Te dejamos aquí las versiones ya empaquetadas (que solo hay que descomprimir):
 
-* Linux: 32 / 64 bits
-* Mac 32 / 64 bits
-* Windows 32 / 64 bits
+* Linux: [32](http://download.uqbar.org/wollok/products/stable/wollok-linux.gtk.x86.zip) / [64 bits](http://download.uqbar.org/wollok/products/stable/wollok-linux.gtk.x86_64.zip)
+* Mac [32](http://download.uqbar.org/wollok/products/stable/wollok-macosx.cocoa.x86.zip) / [64 bits](http://download.uqbar.org/wollok/products/stable/wollok-macosx.cocoa.x86_64.zip)
+* Windows [32](http://download.uqbar.org/wollok/products/stable/wollok-win32.win32.x86.zip) / [64 bits](http://download.uqbar.org/wollok/products/stable/wollok-win32.win32.x86_64.zip)
+
+<hr> 
 
 # Instalación desde el Update Site
 
-Esta opción es para aquellos usuarios avanzados que ya poseen una instalación de Eclipse y desean agregar la posibilidad de trabajar con Wollok, o bien los que ya instalaron Wollok y quieren actualizar su versión a la más reciente.
+Esta opción es para aquellos usuarios avanzados que ya poseen una instalación de Eclipse y desean agregar la posibilidad de trabajar con Wollok (**no es necesario hacerlo si descargaste el entorno Wollok comprimido**).
 
 El Update Site requiere instalarse en una instalación de JDT de Eclipse (o sea que tenga Java). Para hacer eso agregar como Software Update Site:
 
 * [http://update.uqbar.org/wollok/stable](http://update.uqbar.org/wollok/stable) : para acceder a la última versión estable. Esta es la opción **recomendada**.
 * [http://update.uqbar.org/wollok/dev](http://update.uqbar.org/wollok/dev) : si querés tener los últimos cambios en proceso (pueden aparecer errores hasta que la versión se estabilice)
 
-# Encontré un Bug... ¿qué hago?
+<img src="/images/screencasts/Wollok-UpdateSite.gif" width="100%"/>
 
+<hr>
+
+<div>
+<img src="/images/bug.png" height="64" width="64" align="left"/>
+<h1>&nbsp;&nbsp;Encontré un Bug... ¿qué hago?</h1>
+</div><br>
 Wollok es una pieza de Software en constante mejora y crecimiento. Como todas las cosas que están en constante evolución es probable que encuentres problemas o se te ocurra una mejora posible que te gustaría ver. 
 
 En caso de encontrar un error, es de mucha ayuda que lo reportes en la página de GitHub de Wollok. Para eso estamos usando un [Issue Tracker](https://github.com/uqbar-project/wollok/issues) (o sea un gestor de errores / incidentes). 

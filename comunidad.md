@@ -2,9 +2,10 @@
 layout: hyde
 ---
 
-# Comunidad
-
-<p>Para contactarte con nosotros podes usar:</p>
+<div>
+<img src="/images/mail.png" height="64" width="64" align="left"/>
+<h2>&nbsp;&nbsp;Para contactarte</h2>
+</div><br>
 
 <ul>
 <li>Twitter: @WollokLang</li>
@@ -12,5 +13,16 @@ layout: hyde
 </li>
 <li>Mail: <a href="mailto:wollok@uqbar.org">wollok@uqbar.org</a> </li>
 </ul>
-        
+
+<br>
+<div>
+<img src="/images/community.png" height="64" width="64" align="left"/>
+<h2>&nbsp;&nbsp;¿Querés sumarte y contribuir?</h2>
+</div>
+<br>
+<ul>
+<li>¡Entrá al proyecto <a href="https://github.com/uqbar-project/wollok">Github!</a></li>
+<li>Si necesitás documentación para desarrollar entrá a nuestra <a href="https://github.com/uqbar-project/wollok">wiki</a></li>
+</ul>
+
 
