@@ -7,6 +7,14 @@ layout: hyde
 <h2>&nbsp;&nbsp;Para contactarte</h2>
 </div><br>
 
+<img src="/images/comunidad/Community2.jpg" style="
+	position: absolute;
+	top: 2em;
+	right: 1em;
+	height: 28em;
+	width: 7em;
+	z-index: -1;"/>
+
 <ul>
 <li>Twitter: @WollokLang</li>
 <li>Google Groups de Usuarios: <a href="mailto:wollok@googlegroups.com">wollok@googlegroups.com</a> o <a href="https://groups.google.com/d/forum/wollok">https://groups.google.com/d/forum/wollok</a>
